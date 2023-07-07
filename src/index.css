@@ -1,0 +1,93 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-bottom-btn {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.scroll-bottom-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.scroll-btns {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  gap: 30px;
+}
+
+.scroll-btn {
+  padding: 10px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.scroll-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.section1 {
+  background-color: red;
+}
+
+.section2 {
+  background-color: yellow;
+}
+
+.section3 {
+  background-color: green;
+}
+
+.section5 {
+  background-color: beige;
+}
+
+.section6 {
+  background-color: pink;
+}
+
+.icon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 50px;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon:hover {
+  border: 2px solid black;
+}
